@@ -1,0 +1,66 @@
+{
+    // 生成ファイルを "out" ディレクトリに吐き出す
+    "latex-workshop.latex.outDir": "out",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "%DOCFILE_EXT%",
+                "-outdir=%OUTDIR%",
+                "%DOC%",
+                "%DOCFILE%"
+            ]
+        },
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "compile",
+            "tools": [
+                "latexmk",
+            ]
+        }
+    ],
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.fdb_latexmk",
+        "*.synctex.gz",
+        "_minted*",
+        "*.nav",
+        "*.snm",
+        "*.vrb",
+        "*.run.xml",
+        "*.dvi",
+        "*.fdb_latexmk",
+        "*.fls",
+        "*.toc",
+        "*.bcf",
+        //"*.log",
+        //"*/*.log"
+    ],
+    "latex-workshop.latexindent.path": "sh",
+    "latex-workshop.latexindent.args": [
+        "./bin/linter.sh",
+    ],
+    "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?．。，、（）「」［］｛｝《》てにをはがのともへでや",
+    "editor.formatOnSave": false
+}

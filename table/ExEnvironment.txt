@@ -1,0 +1,6 @@
+\begin{tabular}{|c|c|}
+  \hline
+  CPU & Intel core i7 2.8[GHz] \\
+  OS & Windows 10 Pro \\
+  メモリ & 32[GB] \\\hline
+\end{tabular}

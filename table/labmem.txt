@@ -1,0 +1,6 @@
+\begin{tabular}{|c|c|c|c|c|c|}
+  \hline
+  & \multicolumn{2}{|c|}{Docter, etc.} & \multicolumn{2}{|c|}{Master} & Bachelor\\\hline\hline
+  Post & Asst. Prof. & D1 & M2 & M1 & B4\\\hline
+  Number of people & 1 & 2 & 4 & 3 & 6\\\hline
+\end{tabular}
